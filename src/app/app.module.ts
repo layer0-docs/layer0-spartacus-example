@@ -1,9 +1,12 @@
-import { BrowserModule, BrowserTransferStateModule } from '@angular/platform-browser'
-import { NgModule } from '@angular/core'
+import {
+  BrowserModule,
+  BrowserTransferStateModule,
+} from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
 
-import { AppComponent } from './app.component'
-import { translations, translationChunksConfig } from '@spartacus/assets'
-import { B2cStorefrontModule } from '@spartacus/storefront'
+import { AppComponent } from './app.component';
+import { translations, translationChunksConfig } from '@spartacus/assets';
+import { B2cStorefrontModule } from '@spartacus/storefront';
 
 @NgModule({
   declarations: [AppComponent],
@@ -12,7 +15,8 @@ import { B2cStorefrontModule } from '@spartacus/storefront'
     B2cStorefrontModule.withConfig({
       backend: {
         occ: {
-          baseUrl: 'https://layer0-docs-layer0-spartacus-example-default.moovweb-edge.io',
+          baseUrl:
+            'https://layer0-docs-layer0-spartacus-example-default.layer0.link',
         },
       },
       context: {
