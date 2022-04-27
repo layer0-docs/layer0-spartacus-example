@@ -61,7 +61,7 @@
     "@angular/compiler-cli": "~10.2.4",
     "@layer0/angular": "^3.6.0",
     "@layer0/cli": "^3.6.0",
-    "@layer0/core": "^3.6.0",
+    "@layer0/core": "^3.17.10",
     "@layer0/devtools": "^3.6.0",
     "@layer0/prefetch": "^3.6.0",
     "@layer0/spartacus": "^3.6.0",
