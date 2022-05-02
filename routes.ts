@@ -9,7 +9,7 @@ const FAR_FUTURE_TTL = 60 * 60 * 24 * 365 * 10
 
 const CACHE_API = {
   browser: {
-    maxAgeSeconds: PAGE_TTL,
+    maxAgeSeconds: 0,
     serviceWorkerSeconds: PAGE_TTL,
   },
   edge: {
